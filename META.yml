@@ -15,7 +15,7 @@ name: Mojo-Autobox
 provides:
   Mojo::Autobox:
     file: lib/Mojo/Autobox.pm
-    version: '0.02'
+    version: '0.03'
   Mojo::Autobox::Array:
     file: lib/Mojo/Autobox/Array.pm
   Mojo::Autobox::Hash:
@@ -26,8 +26,9 @@ provides:
     file: lib/ojoBox.pm
 requires:
   Mojolicious: '5.00'
+  autobox: '0'
 resources:
   bugtracker: https://github.com/jberger/Mojo-Autobox/issues
   license: http://dev.perl.org/licenses/
   repository: https://github.com/jberger/Mojo-Autobox
-version: '0.02'
+version: '0.03'

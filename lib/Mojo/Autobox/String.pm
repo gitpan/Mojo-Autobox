@@ -59,7 +59,7 @@ String methods for L<Mojo::Autobox>.
 
 =head2 byte_stream
 
-Returns an instance of L<Mojo::Autobox>, constructed from the invocant string.
+Returns an instance of L<Mojo::ByteStream>, constructed from the invocant string.
 
 =head2 b
 
@@ -82,6 +82,4 @@ An alias for L</json>.
 =head2 url
 
 Returns an instance of L<Mojo::URL>, constructed from the invocant string.
-
-=end
 

@@ -21,14 +21,15 @@
       },
       "runtime" : {
          "requires" : {
-            "Mojolicious" : "5.00"
+            "Mojolicious" : "5.00",
+            "autobox" : "0"
          }
       }
    },
    "provides" : {
       "Mojo::Autobox" : {
          "file" : "lib/Mojo/Autobox.pm",
-         "version" : "0.02"
+         "version" : "0.03"
       },
       "Mojo::Autobox::Array" : {
          "file" : "lib/Mojo/Autobox/Array.pm"
@@ -55,5 +56,5 @@
          "url" : "https://github.com/jberger/Mojo-Autobox"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
