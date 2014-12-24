@@ -28,7 +28,7 @@
    "provides" : {
       "Mojo::Autobox" : {
          "file" : "lib/Mojo/Autobox.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Mojo::Autobox::Array" : {
          "file" : "lib/Mojo/Autobox/Array.pm"
@@ -55,5 +55,5 @@
          "url" : "https://github.com/jberger/Mojo-Autobox"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
